@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container fill">
+      <div class="row" style="margin-top: 100px">
+        <div class="col-xs-4 col-xs-offset-4 text-center main">
+          <div id="welcome">
+            <h4>
+              Welcome to Mike's Weather App! Share your location so I can
+              <s>spy on you</s> obtain your weather data.
+            </h4>
+          </div>
+          <div id="location"></div>
+          <div id="weather" class="row"></div>
+
+          <div class="row">
+            <div class="col-xs-6" style="padding-right: 0">
+              <div id="temp"></div>
+              <div id="weather"></div>
+              <div id="units">
+                <div id="unit-switch" class="btn btn-info center-block">
+                  &#176;C
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6" style="padding-left: 0">
+              <div id="icon"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
